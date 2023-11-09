@@ -1,0 +1,28 @@
+#content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+#content p {
+    max-width: 50%;
+}
+
+.menu {
+    white-space: pre;
+}
+
+.tabs { 
+    display: flex;
+    gap: 15px;
+    padding: 20px;
+}
+
+.tabs button {
+    border: none;
+    background-color: lightblue;
+    padding: 1rem 2rem;
+    font-size: 1.3rem;
+}
